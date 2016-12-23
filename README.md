@@ -20,12 +20,6 @@ _D :
 
 
 
-![PHP Logo](https://www.devandweb.fr/medias/images/technos/php.png)
-
-
-
-
-
 ## Exemple :
 
 ### Single Responsibility Principle (Responsabilité unique) :
