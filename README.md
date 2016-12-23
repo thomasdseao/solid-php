@@ -2,19 +2,19 @@
 
 
 _S :
-Single Responsibility Principle (Responsabilité unique) - Une classe doit avoir une et une seule responsabilité
+**Single Responsibility Principle (Responsabilité unique)** - Une classe doit avoir une et une seule responsabilité
 
 _O :
-Open Closed Principle (Ouvert/fermé) - Une classe doit être ouverte à l'extension, mais fermée à la modification
+**Open Closed Principle (Ouvert/fermé)** - Une classe doit être ouverte à l'extension, mais fermée à la modification
 
 _L :
-Liskov Substitution Principle (Substitution de Liskov) - Une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme
+**Liskov Substitution Principle (Substitution de Liskov)** - Une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme
 
 _I :
-Interface Segregation Principle (Ségrégation des interfaces) - Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale
+**Interface Segregation Principle (Ségrégation des interfaces)** - Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale
 
 _D :
-Dependency Inversion Principle (Inversion des dépendances) - Il faut dépendre des abstractions, pas des implémentations
+**Dependency Inversion Principle (Inversion des dépendances)** - Il faut dépendre des abstractions, pas des implémentations
 
 
 
