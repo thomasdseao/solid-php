@@ -20,7 +20,9 @@ _D :
 
 
 
-## Single Responsibility Principle (Responsabilité unique) :
+## Exemple :
+
+### Single Responsibility Principle (Responsabilité unique) :
 
 ```php
 
@@ -129,7 +131,7 @@ var_dump($xmlFormatter->format($article));
 
 
 
-## Open Closed Principle (Ouvert/fermé) :
+### Open Closed Principle (Ouvert/fermé) :
 
 ```php
 
@@ -197,7 +199,7 @@ var_dump($sport->rules($basketball));
 
 
 
-## Liskov Substitution Principle (Substitution de Liskov) :
+### Liskov Substitution Principle (Substitution de Liskov) :
 
 ```php
 
@@ -334,7 +336,7 @@ var_dump($square->getHeight());
 
 
 
-## Interface Segregation Principle (Ségrégation des interfaces) :
+### Interface Segregation Principle (Ségrégation des interfaces) :
 
 ```php
 
@@ -457,7 +459,7 @@ var_dump($employee->action($webdesigner));
 
 
 
-## Dependency Inversion Principle (Inversion des dépendances) :
+### Dependency Inversion Principle (Inversion des dépendances) :
 
 ```php
 
