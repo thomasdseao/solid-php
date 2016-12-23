@@ -3,29 +3,34 @@
 
 _S :
 Single Responsibility Principle (Responsabilité unique)
+
 Une classe doit avoir une et une seule responsabilité
 
 _O :
 Open Closed Principle (Ouvert/fermé)
+
 Une classe doit être ouverte à l'extension, mais fermée à la modification
 
 _L :
 Liskov Substitution Principle (Substitution de Liskov)
+
 Une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme
 
 _I :
 Interface Segregation Principle (Ségrégation des interfaces)
+
 Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale
 
 _D :
 Dependency Inversion Principle (Inversion des dépendances)
+
 Il faut dépendre des abstractions, pas des implémentations
 
 
 
 
 
-# S
+# _S
 ## Single Responsibility Principle (Responsabilité unique)
 
 ```php
@@ -135,7 +140,7 @@ var_dump($xmlFormatter->format($article));
 
 
 
-# O
+# _O
 ## Open Closed Principle (Ouvert/fermé)
 
 ```php
@@ -204,7 +209,7 @@ var_dump($sport->rules($basketball));
 
 
 
-# L
+# _L
 ## Liskov Substitution Principle (Substitution de Liskov)
 
 ```php
@@ -342,7 +347,7 @@ var_dump($square->getHeight());
 
 
 
-# I
+# _I
 ## Interface Segregation Principle (Ségrégation des interfaces)
 
 ```php
@@ -466,7 +471,7 @@ var_dump($employee->action($webdesigner));
 
 
 
-# D
+# _D
 ## Dependency Inversion Principle (Inversion des dépendances)
 
 ```php
