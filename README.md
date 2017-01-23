@@ -20,7 +20,11 @@ _D :
 
 
 
+
 ## Exemple :
+
+
+
 
 ### Single Responsibility Principle (Responsabilité unique) :
 
@@ -130,7 +134,6 @@ var_dump($xmlFormatter->format($article));
 
 
 
-
 ### Open Closed Principle (Ouvert/fermé) :
 
 ```php
@@ -194,7 +197,6 @@ var_dump($sport->rules($football));
 var_dump($sport->rules($basketball));
 
 ```
-
 
 
 
@@ -335,7 +337,6 @@ var_dump($square->getHeight());
 
 
 
-
 ### Interface Segregation Principle (Ségrégation des interfaces) :
 
 ```php
@@ -454,7 +455,6 @@ var_dump($employee->action($developer));
 var_dump($employee->action($webdesigner));
 
 ```
-
 
 
 
