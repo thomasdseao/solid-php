@@ -1,4 +1,7 @@
-# SOLID
+# SOLID - Exemple avec PHP 7
+
+
+## SOLID
 
 
 _S :
@@ -21,7 +24,7 @@ _D :
 
 
 
-## Exemple :
+## Exemple 
 
 
 
