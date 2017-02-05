@@ -1,6 +1,6 @@
 <?php
 
-class Football implements SportInterface
+final class Football implements SportInterface
 {
     /**
      * @return string
