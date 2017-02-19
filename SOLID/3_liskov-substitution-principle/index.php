@@ -3,7 +3,7 @@
 /**
  * Liskov Substitution Principle (Substitution de Liskov)
  *
- * Une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme
+ * Une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme.
  * Les classes enfants ne devraient jamais casser les définitions de type des classe parents.
  */
 
