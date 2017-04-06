@@ -1,6 +1,19 @@
 # SOLID - Exemple avec PHP 7
 
 
+
+
+## Author
+
+Author of this example:
+[Développeur PHP de Grenoble](https://www.devandweb.fr)
+[![Developpeur PHP de Grenoble](https://www.devandweb.fr/medias/website/developpeur-web.png)](https://www.devandweb.fr)
+
+
+
+
+
+
 ## SOLID
 
 
@@ -584,14 +597,3 @@ $sendMail = new SendMail($phpMailer);
 var_dump($sendMail->sendMessage());
 
 ```
-
-
-
-
-
-
-## Author
-
-Author of this example:
-[Développeur PHP de Grenoble](https://www.devandweb.fr)
-[![Developpeur PHP de Grenoble](https://www.devandweb.fr/medias/website/developpeur-web.png)](https://www.devandweb.fr)
