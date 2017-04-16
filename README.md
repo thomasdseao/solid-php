@@ -36,7 +36,7 @@ _D :
 
 
 
-## Exemples
+## Exemple
 
 * [Single Responsibility Principle](https://github.com/stephweb/solid-php/tree/master/src/1_single-responsibility-principle)
 
