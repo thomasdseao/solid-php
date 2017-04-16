@@ -7,14 +7,14 @@
  * Une classe ne devrait avoir qu'une seule raison de changer.
  */
 
-use Article\Article;
-use Article\Formatters\JsonFormatter;
-use Article\Formatters\XmlFormatter;
-
 require_once 'Article/Article.php';
 require_once 'Article/Formatters/FormatterInterface.php';
 require_once 'Article/Formatters/JsonFormatter.php';
 require_once 'Article/Formatters/xmlFormatter.php';
+
+use Article\Article;
+use Article\Formatters\JsonFormatter;
+use Article\Formatters\XmlFormatter;
 
 /**
  * Dans cette exemple, les Formatters "Article\Formatters\JsonFormatter" et "Article\Formatters\XmlFormatter"
