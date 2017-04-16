@@ -1,6 +1,8 @@
 <?php
 
-class Square extends Quadrilateral
+namespace Graphic\Quadrilaterals;
+
+class Rectangle extends Quadrilateral
 {
     /**
      * @param int $width

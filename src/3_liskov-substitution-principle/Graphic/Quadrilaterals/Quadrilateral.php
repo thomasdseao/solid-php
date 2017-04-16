@@ -1,5 +1,7 @@
 <?php
 
+namespace Graphic\Quadrilaterals;
+
 abstract class Quadrilateral
 {
     /**

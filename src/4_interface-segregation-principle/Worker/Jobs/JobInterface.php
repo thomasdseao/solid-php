@@ -1,5 +1,7 @@
 <?php
 
+namespace Worker\Jobs;
+
 interface JobInterface
 {
     /**

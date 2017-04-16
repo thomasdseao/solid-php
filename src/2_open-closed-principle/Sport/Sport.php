@@ -1,5 +1,9 @@
 <?php
 
+namespace Sport;
+
+use Sport\Sports\SportInterface;
+
 class Sport
 {
     /**
@@ -7,6 +11,6 @@ class Sport
      */
     public function rules(SportInterface $sport): string
     {
-        return $sport->rules();
+        return 'The '.$sport->name().' rule is: '.$sport->rules();
     }
 }

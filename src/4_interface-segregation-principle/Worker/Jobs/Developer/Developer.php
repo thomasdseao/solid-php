@@ -1,21 +1,23 @@
 <?php
 
-class Webdesigner implements DesignInterface
+namespace Worker\Jobs\Developer;
+
+class Developer implements CodeInterface
 {
     /**
      * @return string
      */
     public function job(): string
     {
-        return 'Webdesigner';
+        return 'Developer';
     }
 
     /**
      * @return string
      */
-    public function designate(): string
+    public function coding(): string
     {
-        return 'Designate';
+    	return 'Coding';
     }
 
     /**
@@ -23,6 +25,6 @@ class Webdesigner implements DesignInterface
      */
     public function action(): string
     {
-        return 'The '.$this->job().' '.$this->designate();
+    	return 'The '.$this->job().' '.$this->coding();
     }
 }

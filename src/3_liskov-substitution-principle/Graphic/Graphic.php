@@ -1,5 +1,9 @@
 <?php
 
+namespace Graphic;
+
+use Graphic\Quadrilaterals\Quadrilateral;
+
 class Graphic
 {
     /**

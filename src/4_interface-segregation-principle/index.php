@@ -1,17 +1,37 @@
 <?php
 
 /**
- * Interface Segregation Principle (Ségrégation des interfaces)
+ * Interface Segregation Principle (Ségrégation des interfaces).
  *
- * Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale
+ * Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale.
  */
 
-require_once 'JobInterface.php';
-require_once 'CodeInterface.php';
-require_once 'Developer.php';
-require_once 'DesignInterface.php';
-require_once 'Webdesigner.php';
-require_once 'Employee.php';
+require_once 'Worker/Jobs/JobInterface.php';
+require_once 'Worker/Jobs/Developer/CodeInterface.php';
+require_once 'Worker/Jobs/Developer/Developer.php';
+require_once 'Worker/Jobs/Webdesigner/DesignInterface.php';
+require_once 'Worker/Jobs/Webdesigner/Webdesigner.php';
+require_once 'Worker/Employee.php';
+
+use Worker\Jobs\JobInterface;
+use Worker\Jobs\Developer\CodeInterface;
+use Worker\Jobs\Developer\Developer;
+use Worker\Jobs\Webdesigner\DesignInterface;
+use Worker\Jobs\Webdesigner\Webdesigner;
+use Worker\Employee;
+
+/**
+ * Dans cette exemple, les Jobs "Worker\Jobs\Developer\Developer" et "Worker\Jobs\Webdesigner\Webdesigner"
+ * implémente une interface spécifique à leur métier,
+ * Et cette interface immplémente elle même l'interface "Worker\Jobs\JobInterface"
+ * qui est une interface + gérérique.
+ *
+ * La méthode "action" de la classe "Worker\Employee" attend une classe qui implémente
+ * l'interface "Worker\Jobs\JobInterface".
+ *
+ * Dans cette exemple on constate donc que chaque que chaque classe a une interface spécifique
+ * qui elles mêmes peuvent étendrent d'une interface + générique.
+ */
 
 $developer = new Developer();
 
@@ -19,5 +39,7 @@ $webdesigner = new Webdesigner();
 
 $employee = new Employee();
 
+// return string - action (métier + action de ce metier)
 var_dump($employee->action($developer));
+// return string - action (métier + action de ce metier)
 var_dump($employee->action($webdesigner));

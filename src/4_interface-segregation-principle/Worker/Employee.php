@@ -1,5 +1,9 @@
 <?php
 
+namespace Worker;
+
+use Worker\Jobs\JobInterface;
+
 class Employee
 {
     /**

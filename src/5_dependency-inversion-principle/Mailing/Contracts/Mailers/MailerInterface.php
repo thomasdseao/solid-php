@@ -1,5 +1,7 @@
 <?php
 
+namespace Mailing\Contracts\Mailers;
+
 interface MailerInterface
 {
     /**

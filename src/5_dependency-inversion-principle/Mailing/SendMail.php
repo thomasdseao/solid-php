@@ -1,5 +1,9 @@
 <?php
 
+namespace Mailing;
+
+use Mailing\Contracts\Mailers\MailerInterface;
+
 class SendMail
 {
     /**

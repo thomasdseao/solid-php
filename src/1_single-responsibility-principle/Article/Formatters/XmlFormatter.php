@@ -1,5 +1,9 @@
 <?php
 
+namespace Article\Formatters;
+
+use Article\Article;
+
 class XmlFormatter implements FormatterInterface
 {
     /**
