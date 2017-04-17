@@ -3,16 +3,7 @@
 
 
 
-## Voici un exemple du principe Dependency Inversion Principle (Inversion des dépendances)
-
-* [Dependency Inversion Principle (Inversion des dépendances) - Source](https://github.com/stephweb/solid-php/tree/master/src/5_dependency-inversion-principle/index.php)
-
-
-
-
-
-
-### Description
+## Description
 
 Il faut dépendre des abstractions, pas des implémentations.
 
@@ -27,3 +18,12 @@ On sépare les dépendances en les contrôlant et en les instanciant ailleurs da
 
 L’injection de dépendances nous permet d'injecter uniquement les dépendances dont nous avons besoin,
 quand nous avons besoin et ceux sans avoir à écrire en dur quelques dépendances que ce soit.
+
+
+
+
+
+
+### Voici un exemple du principe Dependency Inversion Principle (Inversion des dépendances)
+
+* [Dependency Inversion Principle (Inversion des dépendances) - Source](https://github.com/stephweb/solid-php/tree/master/src/5_dependency-inversion-principle/index.php)
