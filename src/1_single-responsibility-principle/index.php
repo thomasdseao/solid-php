@@ -27,14 +27,17 @@ use Article\Formatters\XmlFormatter;
  * Dans cette exemple on constate donc que chaque classe a bien qu'une seule responsabilité.
  */
 
+
 $article = new Article();
+
 
 $jsonFormatter = new JsonFormatter();
 
-$xmlFormatter = new XmlFormatter();
-
 // return string - Retourne le contenu de l'article au format JSON
 var_dump($jsonFormatter->format($article));
+
+
+$xmlFormatter = new XmlFormatter();
 
 // return string - Retourne le contenu de l'article au format XML
 var_dump($xmlFormatter->format($article));

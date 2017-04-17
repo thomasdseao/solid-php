@@ -33,13 +33,17 @@ use Worker\Employee;
  * qui elles mêmes peuvent étendrent d'une interface + générique.
  */
 
-$developer = new Developer();
-
-$webdesigner = new Webdesigner();
 
 $employee = new Employee();
 
+
+$developer = new Developer();
+
 // return string - action (métier + action de ce metier)
 var_dump($employee->action($developer));
+
+
+$webdesigner = new Webdesigner();
+
 // return string - action (métier + action de ce metier)
 var_dump($employee->action($webdesigner));

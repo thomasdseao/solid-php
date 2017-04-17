@@ -27,14 +27,17 @@ use Sport\Sports\Basketball;
  * sont bien ouvertes à l'exentions (qu'on peut ajouter des comportements...) et fermées à la modification.
  */
 
-$football = new Football();
-
-$basketball = new Basketball();
 
 $sport = new Sport();
 
+
+$football = new Football();
+
 // return string - Règles du football
 var_dump($sport->rules($football));
+
+
+$basketball = new Basketball();
 
 // return string - Règles du basketball
 var_dump($sport->rules($basketball));
