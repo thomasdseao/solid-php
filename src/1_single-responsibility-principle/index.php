@@ -1,10 +1,7 @@
 <?php
 
 /**
- * Single Responsibility Principle (Responsabilité unique).
- *
- * Une classe doit avoir une et une seule responsabilité.
- * Une classe ne devrait avoir qu'une seule raison de changer.
+ * Single Responsibility Principle (Responsabilité unique)
  */
 
 require_once 'Article/Article.php';

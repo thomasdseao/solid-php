@@ -1,9 +1,7 @@
 <?php
 
 /**
- * Interface Segregation Principle (Ségrégation des interfaces).
- *
- * Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale.
+ * Interface Segregation Principle (Ségrégation des interfaces)
  */
 
 require_once 'Worker/Jobs/JobInterface.php';

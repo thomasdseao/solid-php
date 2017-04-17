@@ -1,9 +1,7 @@
 <?php
 
 /**
- * Open Closed Principle (Ouvert/fermé).
- *
- * Une classe doit être ouverte à l'extension, mais fermée à la modification.
+ * Open Closed Principle (Ouvert/fermé)
  */
 
 require_once 'Sport/Sports/SportInterface.php';
