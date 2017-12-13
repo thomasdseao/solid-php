@@ -21,7 +21,7 @@ use Worker\Employee;
 /**
  * Dans cette exemple, les Jobs "Worker\Jobs\Developer\Developer" et "Worker\Jobs\Webdesigner\Webdesigner"
  * implémente une interface spécifique à leur métier,
- * Et cette interface immplémente elle même l'interface "Worker\Jobs\JobInterface"
+ * Et cette interface hérite elle même l'interface "Worker\Jobs\JobInterface"
  * qui est une interface + gérérique.
  *
  * La méthode "action" de la classe "Worker\Employee" attend une classe qui implémente
