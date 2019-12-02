@@ -7,7 +7,7 @@
 
 Author of this example:
 [Développeur PHP](https://www.devandweb.fr/freelance/developpeur-php)
-[![Developpeur web Freelance](https://www.devandweb.fr/medias/website/developpeur-web.png)](https://www.devandweb.fr)
+[![Developpeur web Freelance](https://www.devandweb.fr/medias/app/website/developpeur-web.png)](https://www.devandweb.fr)
 
 
 
