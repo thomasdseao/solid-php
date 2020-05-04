@@ -9,7 +9,6 @@ require_once 'Graphic/Quadrilaterals/Rectangle.php';
 require_once 'Graphic/Quadrilaterals/Square.php';
 require_once 'Graphic/Graphic.php';
 
-use Graphic\Quadrilaterals\Quadrilateral;
 use Graphic\Quadrilaterals\Rectangle;
 use Graphic\Quadrilaterals\Square;
 use Graphic\Graphic;

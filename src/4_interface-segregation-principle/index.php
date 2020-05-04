@@ -11,10 +11,7 @@ require_once 'Worker/Jobs/Webdesigner/DesignInterface.php';
 require_once 'Worker/Jobs/Webdesigner/Webdesigner.php';
 require_once 'Worker/Employee.php';
 
-use Worker\Jobs\JobInterface;
-use Worker\Jobs\Developer\CodeInterface;
 use Worker\Jobs\Developer\Developer;
-use Worker\Jobs\Webdesigner\DesignInterface;
 use Worker\Jobs\Webdesigner\Webdesigner;
 use Worker\Employee;
 
